@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Galeria!</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-slides pager="true" [options]="slideOpts" #slideWithNav>
+        <ion-slide *ngFor="let img of listaImagenes">
+          <ion-card >
+              <ion-card-header>
+                <ion-card-title></ion-card-title>
+              </ion-card-header>
+          
+              <ion-card-content>
+                  <ion-img [src]="img.imgbase64" >
+
+                  </ion-img>
+                  <p>Foto tomada por: {{img.usuario}}</p>
+              </ion-card-content>
+          </ion-card>
+        </ion-slide>        
+      </ion-slides>
+
+</ion-content>

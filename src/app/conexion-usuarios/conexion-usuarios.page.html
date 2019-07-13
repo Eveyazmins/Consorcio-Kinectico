@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Usuarios Test</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content>
+  <ion-list *ngFor="let usuario of usuariosTest">
+    <ion-item (click)="UsuarioSeleccionado(usuario)">{{usuario.correo}}</ion-item>
+  </ion-list>
+</ion-content>
+  
+

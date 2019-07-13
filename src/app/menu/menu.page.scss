@@ -1,0 +1,15 @@
+ion-card{
+    --background:#ffff;
+    -webkit-box-shadow: 4px 7px 18px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 7px 18px -5px rgba(0,0,0,0.75);
+    box-shadow: 4px 7px 18px -5px rgba(0,0,0,0.75);
+}
+
+ion-img{
+    background: #A58989;
+    height: 25vh !important;
+    width: auto !important;
+    margin: auto !important;
+    display: block !important;
+    padding-bottom: 10px;
+}
